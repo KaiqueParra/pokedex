@@ -1,0 +1,106 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Press Start 2P";
+}
+
+body{
+    overflow: hidden;
+    text-align: center;
+    background-image: linear-gradient(to bottom, black, #b22222, #580000);
+    min-height: 100vh;
+}
+
+main{
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+}
+
+.pokemon-img{
+    position: absolute;
+    bottom: 55%;
+    left: 55%;
+    transform: translate(-63%, 20%);
+    height: 18%;
+}
+
+.pokemon-dados{
+    position: absolute;
+    font-weight: 600;
+    color: rgb(92, 92, 92);
+    top: 54.5%;
+    right: 27%;
+    font-size: clamp(8px, 5vw, 25px);
+}
+
+.pokemon-num{
+
+}
+
+.pokemon-nome{
+    color: rgb(37, 37, 37);
+    text-transform: capitalize;
+}
+
+.pokedex{
+    width: 100%;
+    max-width: 425px;
+}
+
+.form{
+    position: absolute;
+    width: 65%;
+    top: 65%;
+    left: 13.5%;
+}
+
+.busca{
+    width: 100%;
+    padding: 4%;
+    outline: none;
+    border: 2px solid rgb(41, 40, 40);
+    border-radius: 5px;
+    font-weight: bolder;
+    color: rgb(32, 32, 32);
+    font-size: clamp(8px, 5vw, 10px);
+    box-shadow: -2px 3px #4d4c4c, -5px 7px rgb(44, 44, 44);
+}
+
+.botoes{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 65%;
+    transform: translate(-57%);
+    display: flex;
+    gap: 20px;
+}
+
+.bt{
+    width: 50%;
+    padding: 4%;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: clamp(8px, 5vw, 10px);
+    font-weight: bolder;
+    background-color: #a0a0a0;
+    box-shadow: -2px 3px #222, -4px 6px black;
+}
+
+.bt:active{
+    box-shadow: inset -4px 4px rgb(54, 54, 54);
+    font-size: 9px;
+}
+
+.bt-ant{
+
+}
+
+.bt-pro{
+    
+}
