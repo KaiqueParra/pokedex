@@ -15,41 +15,33 @@ body{
     min-height: 100vh;
 }
 
+
 main{
     display: inline-block;
     padding: 15px;
     position: relative;
 }
 
-.pokemon-img{
+.poke-img{
     position: absolute;
     bottom: 55%;
-    left: 55%;
+    left: 50%;
     transform: translate(-63%, 20%);
     height: 18%;
-}
+  }
 
-.pokemon-dados{
+.poke-data{
     position: absolute;
     font-weight: 600;
     color: rgb(92, 92, 92);
     top: 54.5%;
     right: 27%;
-    font-size: clamp(8px, 5vw, 25px);
+    font-size: clamp(8px, 5vw, 17px);
 }
 
-.pokemon-num{
-
-}
-
-.pokemon-nome{
+.poke-nome{
     color: rgb(37, 37, 37);
     text-transform: capitalize;
-}
-
-.pokedex{
-    width: 100%;
-    max-width: 425px;
 }
 
 .form{
@@ -76,12 +68,12 @@ main{
     bottom: 10%;
     left: 50%;
     width: 65%;
-    transform: translate(-57%);
+    transform: translate(-57%, 0);
     display: flex;
     gap: 20px;
 }
 
-.bt{
+.botao{
     width: 50%;
     padding: 4%;
     border: 2px solid black;
@@ -92,15 +84,12 @@ main{
     box-shadow: -2px 3px #222, -4px 6px black;
 }
 
-.bt:active{
+.botao:active{
     box-shadow: inset -4px 4px rgb(54, 54, 54);
     font-size: 9px;
 }
 
-.bt-ant{
-
-}
-
-.bt-pro{
-    
+.pokedex{
+  width: 100%;
+  max-width: 425px;
 }
