@@ -1,40 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Links -->
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style/style.css">
+  <!-- Links -->
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="./style/style.css">
 
-    <!-- JavaScript -->
-    <script src="./js/script.js"></script>
+  <!-- JavaScript -->
+  <script defer src="./js/script.js"></script>
 
-    <title>Pokedex</title>
+  <title>Pokédex</title>
 </head>
 <body>
+  
+  <main>
+    <img src="#" alt="pokemon" class="poke-img">
 
-    <main>
-        <img src="" alt="pokemon" class="pokemon-img">
+    <h1 class="poke-data">
+      <span class="poke-num"></span> -
+      <span class="poke-nome"></span>
+    </h1>
 
-        <h1 class="pokemon-dados">
-            <span class="pokemon-num"></span>- 
-            <span class="pokemon-nome"></span>
-        </h1>
+    <form class="form">
+      <input type="search" class="busca" placeholder="Nome ou Número" required/>
+    </form>
 
-        <img src="img/pokedex.png" alt="Pokedex" class="pokedex">
+    <div class="botoes">
+      <button class="botao bt-ant">Anterior &lt;</button>
+      <button class="botao bt-pro">Próximo &gt;</button>
+    </div>
 
-        <form action="" class="form">
-            <input type="search" name="busca" id="ibusca" class="busca" placeholder="Nome ou Número" required>
+    <img src="img/pokedex.png" alt="pokedex" class="pokedex">
+  </main>
 
-        </form>
-
-        <div class="botoes">
-            <button class="bt bt-ant">Anterior &lt;</button>
-            <button class="bt bt-pro">Próximo &gt;</button>
-        </div>
-    </main>
-    
 </body>
 </html>
