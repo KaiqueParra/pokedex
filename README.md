@@ -12,10 +12,12 @@ Para conseguir obter as informações de imagem, número e nome, foi usado a API
 
 Cada Pokémon é exibido dentro de uma Pokédex, com sua númeração e nome exibidos embaixo.
 
-## 💻 Linguagens Usadas:
+## ⌨️ Linguagens Usadas:
 
 - `Javascript`
 - `HTML`
 - `CSS`
 
-  
+## 💻 Tela
+![Pokedex](https://github.com/KaiqueParra/pokedex/assets/129024559/ec485f1f-d4bf-4f90-bec4-6364f6469ccd)
+
