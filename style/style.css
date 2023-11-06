@@ -19,26 +19,6 @@ body{
     min-height: 100vh;
 }
 
-.contato img{
-    position: absolute;
-    left: 88%;
-    bottom: -5%;
-
-    width: 70px;
-    margin: 50px;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
-    box-sizing: border-box;
-}
-
-.contato img:hover{
-    border: 2px solid rgba(0, 0, 0, 0.6);
-    transform: translate(-1px, -2px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
-    transition: transform 0.5s border 1s
-}
-
-
 main{
     display: inline-block;
     padding: 15px;
@@ -117,3 +97,24 @@ main{
   width: 100%;
   max-width: 425px;
 }
+
+.contato a{
+
+}
+
+.contato img{
+    margin-left: 1%;
+    margin-right: 90%;
+    width: 70px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+.contato img:hover{
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    transform: translate(-1px, -2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform 0.5s border 1s
+}
+
