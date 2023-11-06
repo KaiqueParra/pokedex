@@ -8,11 +8,34 @@
     font-family: "Press Start 2P";
 }
 
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
 body{
-    overflow: hidden;
     text-align: center;
-    background-image: linear-gradient(to bottom, black, #b22222, #580000);
+    background-image: linear-gradient(to bottom, black, #7e57c2, #673ab7);
     min-height: 100vh;
+}
+
+.contato img{
+    position: absolute;
+    left: 88%;
+    bottom: -5%;
+
+    width: 70px;
+    margin: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+.contato img:hover{
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    transform: translate(-1px, -2px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition: transform 0.5s border 1s
 }
 
 
@@ -20,6 +43,7 @@ main{
     display: inline-block;
     padding: 15px;
     position: relative;
+    margin: auto;
 }
 
 .poke-img{
