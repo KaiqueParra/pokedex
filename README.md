@@ -18,8 +18,11 @@ Cada Pokémon é exibido dentro de uma Pokédex, com sua númeração e nome exi
 - `HTML`
 - `CSS`
 
-## 💻 Tela
+## 💻 Tela:
 ![Pokedex](https://github.com/KaiqueParra/pokedex/assets/129024559/ec485f1f-d4bf-4f90-bec4-6364f6469ccd)
 ##
 
 ![pokédex gif](https://github.com/KaiqueParra/pokedex/assets/129024559/c0b73893-3b71-4073-9c03-4b77dd9ec6ff)
+
+## ✔️ Veja o Projeto Pronto:
+- <a href="https://kaiqueparra.github.io/pokedex/" target="_blank" rel="external">Projeto Pokédex</a>
